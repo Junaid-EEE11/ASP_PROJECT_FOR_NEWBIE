@@ -38,7 +38,14 @@ GoTo [https://localhost:7037/weatherfocast] with a browser to see the sample pro
 
 Day_01 completed
 ----------------------------------
+On day 2, the focus shifts towards implementing a specific feature/module, integrating it into the ASP.NET Core project, ensuring functionality, and addressing key aspects like authentication, data handling, validation, and documentation.
 
+## 1.  Addition of Functionality:
+  Identifing core features for your business solution user authentication, data CRUD operations, others
+
+## 2.  Implemention User Authentication:
+  Introducing user authentication and authorization.
+  Implemention a simple authentication mechanism using ASP.NET Core Identity or JWT Authentication.
 
 
 
