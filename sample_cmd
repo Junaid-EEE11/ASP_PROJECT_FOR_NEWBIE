@@ -1,0 +1,7 @@
+dotnet new web -n EcommerceWebApp
+cd EcommerceWebApp
+dotnet add package Microsoft.VisualStudio.Web.CodeGeneration.Design
+dotnet add package Microsoft.AspNetCore.Identity.EntityFrameworkCore
+dotnet add package Microsoft.EntityFrameworkCore.SqlServer
+dotnet add package Microsoft.EntityFrameworkCore.Tools
+dotnet aspnet-codegenerator identity -dc ApplicationDbContext
